@@ -13,4 +13,9 @@ class Calc
 	{
 		return x/y;
 	}
+	
+	public double Sub(double x, double y)
+	{
+		return x-y;
+	}
 }
