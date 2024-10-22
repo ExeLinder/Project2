@@ -4,4 +4,9 @@ class Calc
 	{
 		return x+y;
 	}
+	
+	public double Mult(double x, double y)
+	{
+		return x*y;
+	}
 }
