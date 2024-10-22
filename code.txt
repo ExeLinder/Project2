@@ -17,10 +17,30 @@ class Calc
 	{
 		return x-y;
 	}
+	
+	public double Add(double x, double y)
+	{
+		return x+y;
+	}
+	
+	public  double Mult(double x, double y)
+	{
+		return x*y;
+	}
+	public  double Div(double x, double y)
+	{
+		return x/y;
+	}
+	public  double Sub(double x, double y)
+	{
+		return x-y;
+	}
 }
 
 void main()
 {
 	Calc.Add(2,7)
+	Calc calc = new Calc();
+	calc.Add(3,4);
 }
 
